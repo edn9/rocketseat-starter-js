@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de JS - Exerc. 3</title>
+    <style>
+        body {
+            background-color: #0C0C0D;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function temHabilidade(skills) {
+            if (skills.indexOf("Javascript") === 0) {
+                console.log('Achou.', skills[0], '.');
+            } else {
+                console.log('Ue?');
+            }
+        }
+        var skills = ["Javascript", "ReactJS", "React Native"];
+        
+        //console.log(skills.indexOf("Javascript") == 0 ? 'Achou.' : 'Ue?');
+
+        temHabilidade(skills); // true ou false
+    </script>
+</body>
+
+</html>

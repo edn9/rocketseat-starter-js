@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de JS - Exerc. 5</title>
+    <style>
+        body {
+            background-color: #0C0C0D;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function mensagem(usuarios) {
+            for (usuario of usuarios) {
+                console.log(
+                    "O usuario " +
+                    usuario.nome +
+                    " possui habilidades: " +
+                    usuario.habilidades.join(', ')
+                );
+            }
+        }
+
+        var usuarios = [
+            {
+                nome: "Diego",
+                habilidades: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+                nome: "Gabriel",
+                habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+        ];
+
+        mensagem(usuarios);
+
+    </script>
+</body>
+
+</html>

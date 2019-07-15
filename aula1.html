@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de JS</title>
+        <style>
+            body {
+              background-color: #0C0C0D;
+            }
+            </style>
+    </head>
+    <body>
+        <script>
+            //JS INTRO - Intervalo e timeout
+            function exibeAlgo() {
+                console.log('Hello World!');
+            }
+            
+            //setInterval(exibeAlgo, 1000); a cada 1seg executa
+            setTimeout(exibeAlgo, 5000); //depois de 5s, executa uma vez apenas
+
+            /*
+            //JS INTRO - Estruturas de repetição
+            //for, while
+
+            // for (var i = 0; i <= 100; i++){
+            //     console.log(i);
+            // }
+
+            var j = 0;
+            while (j <= 100) {
+                console.log('j',j);
+                j++;
+            }
+            
+            
+            //JS INTRO - Condição ternária
+            //Quando se utiliza apenas um if e else, duas verificações dentro do if
+
+            var sexo = 'M';
+
+            var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+            console.log(retorno)
+            
+            
+            
+            //JS INTRO - Operadores lógicos
+            //AND &&, OR||, NOT!==
+            var sexo = 'M';
+
+            var masculino = sexo === 'M';
+            console.log(masculino)
+
+            
+            //js intro - condicionais
+            function retornaSexo (sexo){
+                switch (sexo){
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
+                }
+                
+                /*
+                if (sexo === 'M'){
+                    return 'Masculino';
+                } else if (sexo === 'F') {
+                    return 'Feminino';
+                } else {
+                    return 'Outro';
+                }
+            }
+            
+            var res = retornaSexo('glajnfas');
+            console.log(res);
+
+            /*
+            //js intro - func
+            function soma (num1, num2){
+                var res = num1 + num2;
+                return res;
+            }
+            
+            var res = soma(1, 2);
+            console.log(res);
+            
+            /*
+            //js intro - operações matematicas
+            var x = 10, y = 5;
+            
+            //x = x + 3;
+            
+            //x+=3;
+            x*=y;
+            console.log(x)
+            
+            //js intro - variaveis e dados
+            var nome = "Diego"; //string, int, float, boolean
+            var idade = 23;
+            var peso = 80.5;
+            var humano = true;
+
+            var alunos = ['Diego', 'Gabriel', 'Lucas']; //vetor
+            
+            //obj
+            var aluno = {
+                //nome: 'Diego',
+                nome: alunos[2],
+                idade: 23,
+                peso: 80.5,
+                humano: true
+            };
+
+            console.log(alunos[1]);
+            console.log(aluno.peso);
+            console.log(aluno.nome);
+            */
+        </script>
+    </body>
+</html>
