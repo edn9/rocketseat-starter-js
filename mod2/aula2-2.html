@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de JS - Manipulando a DOM</title>
+        <style>
+            body {
+              background-color: #0C0C0D;
+            }
+            </style>
+    </head>
+    <body>
+        <!--Trabalhando com a DOM-->
+        <div id="id">
+            <input type="text" name="nome"/>
+            <button class="butao">Adicionar</button>
+        </div>
+
+        <script>
+            var inputElement = document.querySelector('input[name=nome]');
+            var btnElement = document.querySelector('button.butao');
+
+            btnElement.onclick = function(){
+                var text = inputElement.value;
+                alert(text);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de JS - Exercícios: Módulo 02</title>
+    <style>
+        body {
+            background-color: #0C0C0D;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="box"></div>
+        <button onmouseover="getRandomColor(),newBox()">Passe o mouse para mudar cor do quadrado!</button>
+        
+    </div>
+
+    <script>
+        function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        var newColor = getRandomColor(); // #E943F
+
+        var boxElement = document.querySelector('.box');
+
+        boxElement.style.width = 100;
+        boxElement.style.height = 100;
+        boxElement.style.backgroundColor = newColor;
+
+        function newBox() {
+            boxElement.style.backgroundColor = getRandomColor();
+        }
+    </script>
+</body>
+
+</html>

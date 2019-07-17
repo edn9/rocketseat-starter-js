@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de JS - Exercícios: Módulo 02</title>
+    <style>
+        body {
+            background-color: #0C0C0D;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <button onclick="newBox()">Criar novo quadrado!</button>
+    </div>
+
+    <script>
+        function newBox() {
+            var linkElement = document.createElement('div');
+            var textElement = document.createTextNode('');
+            linkElement.appendChild(textElement);
+
+            var containerElement = document.querySelector('#app');
+            containerElement.appendChild(linkElement);
+            linkElement.style.width = 100;
+            linkElement.style.height = 100;
+            linkElement.style.backgroundColor = '#f00';
+        }
+    </script>
+</body>
+
+</html>

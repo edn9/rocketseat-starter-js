@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de JS - Exercícios: Módulo 02</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h4 style="color:#FFFF;">Adicionar usuarios:</h4>
+    <input type="text" placeholder="Nome" name="nome" />
+    <button onClick="adicionar()">Adicionar</button>
+    <h4 style="color:#FFFF;">Lista de usuarios:</h4>
+    <ul style="color:#FFFF;"></ul>
+
+
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        var a = 0;
+        while (a <= 2) {
+            var campo = document.querySelector('ul');
+            var lista = document.createElement('li');
+            var textoElement = document.createTextNode(nomes[a]);
+            lista.appendChild(textoElement);
+            campo.appendChild(lista);
+            a++;
+        }
+
+        function adicionar() {
+            var inputElement = document.querySelector('input[name=nome]');
+            var text = inputElement.value;
+            var campo = document.querySelector('ul');
+            var lista = document.createElement('li');
+            var textoElement = document.createTextNode(text);
+            lista.appendChild(textoElement);
+            campo.appendChild(lista);
+            document.querySelector('input').value = ('');
+        }
+
+    </script>
+</body>
+
+</html>

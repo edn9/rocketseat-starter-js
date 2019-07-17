@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de JS - Manipulando a DOM</title>
+        <style>
+            body {
+              background-color: #0C0C0D;
+            }
+            </style>
+    </head>
+    <body>
+        <!--Eventos inline-->
+        <div id="app">
+            <input onkeypress="mostrarAlerta()" />
+            <button onclick="mostrarAlerta()">Press me!</button>
+        </div>
+
+        <script>
+            //
+            function mostrarAlerta(){
+                alert('Botão pressionado!');
+            }
+        </script>
+    </body>
+</html>
