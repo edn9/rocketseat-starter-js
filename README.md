@@ -4,5 +4,5 @@ Aqui estarei disponibilizando o material de resultado do estudo que criarei no d
 ### Index
 <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/mod1">1. Introdução</a>
 <br><a href="https://github.com/edn9/rocketseat-starter-js/tree/master/mod2">2. Manipulando a DOM</a>
-<br>*3. App de Todos*
+<br><a href="https://github.com/edn9/rocketseat-starter-js/tree/master/mod3">3. App de Todos</a>
 <br>*4. JS assíncrono*
