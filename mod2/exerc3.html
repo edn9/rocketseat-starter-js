@@ -17,15 +17,24 @@
 
     <script>
         var nomes = ["Diego", "Gabriel", "Lucas"];
-        var a = 0;
-        while (a <= 2) {
-            var campo = document.querySelector('ul');
-            var lista = document.createElement('li');
-            var textoElement = document.createTextNode(nomes[a]);
-            lista.appendChild(textoElement);
-            campo.appendChild(lista);
-            a++;
+        var listElement = document.querySelector('ul');
+        for (nome of nomes) {
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(nome);
+
+            liElement.appendChild(textElement)
+            listElement.appendChild(liElement)
         }
+/*         var nomes = ["Diego", "Gabriel", "Lucas"];
+                var a = 0;
+                while (a <= 2) {
+                    var campo = document.querySelector('ul');
+                    var lista = document.createElement('li');
+                    var textoElement = document.createTextNode(nomes[a]);
+                    lista.appendChild(textoElement);
+                    campo.appendChild(lista);
+                    a++;
+                } */
     </script>
 </body>
 

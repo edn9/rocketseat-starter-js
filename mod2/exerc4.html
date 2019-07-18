@@ -20,6 +20,27 @@
 
     <script>
         var nomes = ["Diego", "Gabriel", "Lucas"];
+        var listElement = document.querySelector('ul');
+        var inputElement = document.querySelector('input');
+
+        function addItem(text){
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(text);
+
+            liElement.appendChild(textElement);
+            listElement.appendChild(liElement);
+        }
+
+        function adicionar(){
+            addItem(inputElement.value);
+            inputElement.value = '';
+        }
+
+        for (nome of nomes) {
+            addItem(nome);
+        }
+
+/*         var nomes = ["Diego", "Gabriel", "Lucas"];
         var a = 0;
         while (a <= 2) {
             var campo = document.querySelector('ul');
@@ -40,7 +61,7 @@
             campo.appendChild(lista);
             document.querySelector('input').value = ('');
         }
-
+ */
     </script>
 </body>
 
