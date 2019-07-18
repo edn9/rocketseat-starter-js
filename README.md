@@ -15,5 +15,4 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 <br>*3. Async/Await*
 <br>*4. Aplicação com ES6+*
 
-- <a href="https://nodejs.org/en/">NodeJS</a> e <a href="https://yarnpkg.com/pt-BR/">Yarn</a>
-- Void Linux: `sudo xbps-install nodejs yarn`
+- <a href="https://nodejs.org/en/">NodeJS</a> e <a href="https://yarnpkg.com/pt-BR/">Yarn</a> - Void Linux: `sudo xbps-install nodejs yarn`
