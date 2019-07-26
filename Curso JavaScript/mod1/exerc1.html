@@ -13,17 +13,18 @@
 <body>
     <script>
         function mensagem() {
-            console.log('O usuario mora em', endereco.cidade, '/', endereco.uf, ', no bairro', endereco.bairro, ', na rua', endereco.rua, 'com o nº', endereco.numero, '.');
+            console.log('O usuario mora em', endereco.cidade + '/' + endereco.uf + ', no bairro', endereco.bairro + ', na rua "' + endereco.rua + '" com o nº', endereco.numero + '.');
         }
 
         var endereco = {
             rua: "Rua dos pinheiros",
-            numero: 1293, bairro: "Centro",
+            numero: 1293, 
+            bairro: "Centro",
             cidade: "São Paulo",
             uf: "SP"
         };
 
-        mensagem()
+        mensagem();
 
     </script>
 </body>
