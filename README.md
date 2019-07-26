@@ -8,7 +8,7 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 <br><a href="https://github.com/edn9/rocketseat-starter-js/tree/master/mod4">4. JS assíncrono</a>
 
 ### 2. Curso JavaScript ES6 <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript%20ES6">*</a>
-*1. Conceitos*
+<a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript%20ES6/mod1">1. Conceitos</a>
 <br>*2. Webpack Server*
 <br>*3. Async/Await*
 <br>*4. Aplicação com ES6+*
