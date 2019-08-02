@@ -1,17 +1,13 @@
 "use strict";
 
-//Object Short Syntax
+//7º exercício
 var nome = 'Diego';
 var idade = 23;
 var usuario = {
+  //nome: nome,
   nome: nome,
+  //idade: idade,
   idade: idade,
-  empresa: 'Rocketseat'
+  cidade: 'Rio do Sul'
 };
-/* const usuario = {
-    nome: nome,
-    idade: idade,
-    empresa: 'Rocketseat',
-}; */
-
 console.log(usuario);
