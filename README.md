@@ -13,8 +13,8 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 <br><a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript%20ES6/mod3">3. Async/Await</a>
 <br><a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript%20ES6/mod4">4. Aplicação com ES6+</a>
 
-### 3. Curso NodeJS <a href="">*</a>
-<a href="">1. ...</a>
+### 3. Curso NodeJS <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20NodeJS">*</a>
+<a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20NodeJS/node-api">1. Api</a>
 
 #### Dependencies
 - <a href="https://code.visualstudio.com/">VS Code</a>. Void Linux: `sudo xbps-install vscode`.
