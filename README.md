@@ -16,6 +16,12 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 ### 3. Curso NodeJS <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20NodeJS">*</a>
 <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20NodeJS/node-api">1. Api</a>
 
+### 4. Curso ReactJS <a href="">*</a>
+<a href="">1. -</a>
+
+### 5. Curso React Native <a href="">*</a>
+<a href="">1. -</a>
+
 #### Dependencies
 - <a href="https://code.visualstudio.com/">VS Code</a>. Void Linux: `sudo xbps-install vscode`.
 - <a href="https://github.com/axios/axios">Axios</a>.
@@ -23,3 +29,8 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 - <a href="https://nodejs.org/en/">NodeJS</a> e <a href="https://yarnpkg.com/pt-BR/">Yarn</a>. Void Linux: `sudo xbps-install nodejs yarn`.
+
+- <a href="https://insomnia.rest/">Insomnia REST Client</a>.
+- <a href="https://robomongo.org/">Robo 3T</a>.
+- <a href="https://www.docker.com/">Docker</a>. Void Linux: `sudo xbps-install docker`.
+- <a href="https://github.com/nvm-sh/nvm">nvm</a>.
