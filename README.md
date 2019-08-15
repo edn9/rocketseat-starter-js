@@ -23,6 +23,7 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 <a href="">1. -</a>
 
 <br>
+
 ---
 #### Dependencies
 - <a href="https://code.visualstudio.com/">VS Code</a>. Void Linux: `sudo xbps-install vscode`.
