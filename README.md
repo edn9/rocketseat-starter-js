@@ -19,8 +19,8 @@ Material de estudo criado a partir do curso starter da <a href="https://rocketse
 ### 4. Curso ReactJS <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20ReactJS">*</a>
 <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20ReactJS/huntweb">JSHunt</a>
 
-### 5. Curso React Native <a href="">*</a>
-<a href="">1. -</a>
+### 5. Curso React Native <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20React%20Native">*</a>
+<a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20React%20Native/hunt">JSHunt Native</a>
 
 <br>
 
