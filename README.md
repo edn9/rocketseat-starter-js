@@ -1,5 +1,5 @@
 # rocketseat-starter-js
-Material de estudo criado a partir do curso starter da <a href="https://rocketseat.com.br/">Rocketseat</a>.
+Resultado de estudo completo criado a partir do curso starter da <a href="https://rocketseat.com.br/">Rocketseat</a>.
 
 ### 1. Curso Javascript <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript">*</a>
 <a href="https://github.com/edn9/rocketseat-starter-js/tree/master/Curso%20JavaScript/mod1">1. Introdução</a>
